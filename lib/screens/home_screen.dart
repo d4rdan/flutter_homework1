@@ -1,5 +1,4 @@
 
-// lib/screens/home_screen.dart
 import 'package:flutter/material.dart';
 import '../models/clothing_item.dart';
 import '../screens/detail_screen.dart';
@@ -40,7 +39,7 @@ class HomeScreen extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text('Student Index: 216060'), // Replace with your actual index
+        title: Text('Student Index: 216060'),
         backgroundColor: Colors.deepPurple,
       ),
       body: GridView.builder(
